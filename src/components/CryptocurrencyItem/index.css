@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.row-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  margin: 10px;
+  list-style-type: none;
+}
+.coin-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.value {
+  font-size: 13px;
+  color: #fff;
+  margin: 10px;
+}
+.logo-img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}

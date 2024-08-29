@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  min-height: 100vh;
+}
+.home-page {
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #fff;
+  color: #00e7ff;
+  font-size: 35px;
+}
+.img {
+  height: 50vh;
+  width: 75vw;
+}
+
+.table-container {
+  border: solid 2px #00e7ff;
+  border-radius: 10px;
+  width: 70vw;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  border-radius: 10px 10px 0 0;
+}
+
+.row-heading {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+}
